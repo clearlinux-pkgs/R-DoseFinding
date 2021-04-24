@@ -4,7 +4,7 @@
 #
 Name     : R-DoseFinding
 Version  : 0.9.17
-Release  : 21
+Release  : 22
 URL      : https://cran.r-project.org/src/contrib/DoseFinding_0.9-17.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/DoseFinding_0.9-17.tar.gz
 Summary  : Planning and Analyzing Dose Finding Experiments
