@@ -4,7 +4,7 @@
 #
 Name     : R-DoseFinding
 Version  : 1.0.3
-Release  : 40
+Release  : 41
 URL      : https://cran.r-project.org/src/contrib/DoseFinding_1.0-3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/DoseFinding_1.0-3.tar.gz
 Summary  : Planning and Analyzing Dose Finding Experiments
@@ -16,9 +16,6 @@ Requires: R-mvtnorm
 BuildRequires : R-ggplot2
 BuildRequires : R-mvtnorm
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 of dose-finding experiments (with focus on pharmaceutical Phase
@@ -40,10 +37,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1673018873
+export SOURCE_DATE_EPOCH=1678816057
 
 %install
-export SOURCE_DATE_EPOCH=1673018873
+export SOURCE_DATE_EPOCH=1678816057
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
