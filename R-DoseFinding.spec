@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-DoseFinding
-Version  : 1.0.4
-Release  : 45
-URL      : https://cran.r-project.org/src/contrib/DoseFinding_1.0-4.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/DoseFinding_1.0-4.tar.gz
+Version  : 1.0.5
+Release  : 46
+URL      : https://cran.r-project.org/src/contrib/DoseFinding_1.0-5.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/DoseFinding_1.0-5.tar.gz
 Summary  : Planning and Analyzing Dose Finding Experiments
 Group    : Development/Tools
 License  : GPL-3.0
@@ -40,10 +40,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684427851
+export SOURCE_DATE_EPOCH=1687889462
 
 %install
-export SOURCE_DATE_EPOCH=1684427851
+export SOURCE_DATE_EPOCH=1687889462
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
